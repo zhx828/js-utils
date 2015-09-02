@@ -8,7 +8,7 @@
 var hammingWeight = function(n) {
     var count = 0;
 
-    if(n >   Math.pow(2, 31)) {
+    if(n >=   Math.pow(2, 31)) {
         n ^= Math.pow(2, 31)
         count++;
     }
